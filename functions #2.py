@@ -29,6 +29,7 @@ def Solve():
     Cdiff = SumRightC - SumLeftC
     Xdiff = SumLeftX - SumRightX
     Ans = Cdiff/Xdiff
+    print(str(Xdiff) + "x = " + str(Cdiff))
     print(Ans)
 
 Variables = []
@@ -65,5 +66,6 @@ SumRightC = ArraySum(RHS)
 SumLeftC = ArraySum(LHS)
 SumRightX = ArraySum(RHS_x)
 SumLeftX = ArraySum(LHS_x)
+
 
 Solve()
